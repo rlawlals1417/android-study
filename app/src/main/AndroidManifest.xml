@@ -21,7 +21,8 @@
             android:label="@string/title_activity_scrolling"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".FramActivity" />
-        <activity android:name=".BasicWidget"></activity>
+        <activity android:name=".BasicWidget" />
+        <activity android:name=".layoutInflater"></activity>
     </application>
 
 </manifest>

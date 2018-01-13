@@ -27,6 +27,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void onClick3(View view){
+        Intent intent = new Intent(this, layoutInflater.class);
+        startActivity(intent);
+    }
+
 
     }
 
