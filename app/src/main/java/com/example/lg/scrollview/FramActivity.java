@@ -16,7 +16,7 @@ public class FramActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fram);
+        setContentViewti(R.layout.acvity_fram);
 
 
         imageView = (ImageView) findViewById(R.id.imageView2); //리턴타입 그냥 View 이기 때문에 imageView 자료형 형변환

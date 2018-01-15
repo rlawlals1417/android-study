@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);}
+
     public void onClick(View view) {
         Intent intent = new Intent(this, FramActivity.class);
         startActivity(intent);
@@ -21,17 +22,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onClick2(View view){
-        Intent intent = new Intent(this,ScrollingActivity.class);
-        startActivity(intent);
-
-    }
-
     public void onClick3(View view){
-        Intent intent = new Intent(this, layoutInflater.class);
+        Intent intent = new Intent(this, LayoutInflater.class);
         startActivity(intent);
     }
+}
 
 
-    }
+
 
